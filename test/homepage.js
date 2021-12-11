@@ -1,6 +1,6 @@
 const homepage = require('../pageobjects/homepage');
 const baseurl = 'https://opensource-demo.orangehrmlive.com/';
-var username = 'test19';
+var username = 'Marynych_Anton';
 describe("Test", function (){
     this.timeout(50000);
     it('login test', async function(){
