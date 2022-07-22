@@ -1,0 +1,252 @@
+.titleForm{
+    width: 300px;
+    background-color: #fffacd;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.titleText {
+    background-color: #c6f8f0;
+    border-bottom-left-radius: 37px 140px;
+    border-bottom-right-radius: 23px 130px;
+    border-top-left-radius: 110px 19px;
+    border-top-right-radius: 120px 24px;
+    display: block;
+    position: relative;
+    border: solid 3px #9da4be;
+    max-width: 300px;
+    width: 100%;
+    margin: 3px auto 0;
+    font-size: 17px;
+    line-height: 28px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+    text-align: center;
+}
+
+.titleInput {
+    background-color: #c6f8f0;
+    border-bottom-left-radius: 37px 140px;
+    border-bottom-right-radius: 23px 130px;
+    border-top-left-radius: 110px 19px;
+    border-top-right-radius: 120px 24px;
+    max-height: 30px;
+    display: block;
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 290px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.block {
+    width: 310px;
+    height: auto;
+}
+
+.CardComp {
+    font-family: Arial, serif;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    /*padding: 10px 10px 10px 10px;*/
+}
+
+.CardText {
+    position: absolute;
+    margin-left: 23px;
+    margin-top: -1px;
+    width: 270px;
+    max-height: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+textarea {
+    background-color: #fffacd;
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+    display: block;
+    position: relative;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 17px;
+    line-height: 28px;
+    /*box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);*/
+    transition: all 0.13s ease-in;
+    padding-left: 22px;
+    max-width: 270px;
+    width: 100%;
+    margin-top: -1px;
+    max-height: 120px;
+    padding-top: 0;
+    margin-left: 2px;
+}
+
+.AddCardButton {
+    width: 310px;
+    background-color: #fffacd;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+    display: block;
+    position: relative;
+    border: solid 3px #9da4be;
+    max-width: 310px;
+    margin-top: 10px;
+    height: 40px;
+    transition: 0.3s;
+
+}
+
+.CardDivContainer {
+    /*margin: 5px 5px 5px 5px;*/
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+
+    background-color: #fffacd;
+    display: block;
+    position: relative;
+    border: solid 3px #9da4be;
+    max-width: 300px;
+    width: 100%;
+    margin: 3px auto 0;
+    font-size: 17px;
+    line-height: 28px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+    height: 100px;
+
+}
+
+.TextAreaCard {
+    padding-left: 15px;
+    max-width: 270px;
+    width: 100%;
+    margin-top: 0;
+    max-height: 120px;
+    margin-left: 8px;
+    padding-top: -10px;
+
+}
+
+body {
+    margin: 60px;
+    display: grid;
+    background-color: #9da4be;
+}
+
+.inputCard {
+    padding-top: -10px;
+    display: block;
+    position: relative;
+}
+div, p, input, textarea {
+    font-family: Arial, serif;
+}
+
+.inputCreateNewList, .App {
+    display: flex;
+}
+
+.inputCreateNewList {
+    max-height: 31px;
+    background-color: #c6f8f0;
+    border-bottom-left-radius: 37px 140px;
+    border-bottom-right-radius: 23px 130px;
+    border-top-left-radius: 110px 19px;
+    border-top-right-radius: 120px 24px;
+
+    display: block;
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 310px;
+    padding-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+.x-button-title, .x-button-card {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bcc4dc;
+
+    border: none;
+    top: 1px;
+
+    right: 3px;
+
+    height: 25px;
+    width: 25px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*border-radius: 4px;*/
+
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+
+    transform: scale(0.35);
+    opacity: 0;
+    /*transform: scale(1);*/
+    /*opacity: 1;*/
+
+
+}
+
+.titleText:hover > .x-button-title, .CardText:hover > .x-button-card {
+    transform: scale(1);
+    opacity: 1;
+    transition-delay: 0.35s;
+}
+
+.x-button-card {
+    top: 3px;
+    background-color: #deb29c;
+}
+
+.titleText:hover, .CardDivContainer:hover, .inputCreateNewList:hover {
+    transition: transform 0.2s ease-out;
+    transform: scale(1.05);
+}
+
+.inputCard:hover {
+    transition: transform 0.2s ease-out;
+    transform: scale(1.08);
+}
+.AddCardButton:hover, .inputCreateNewList:hover {
+    background-color: #96eea4;
+}
+
+.blockList {
+    margin-right: 30px;
+}
+.CardDivContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
